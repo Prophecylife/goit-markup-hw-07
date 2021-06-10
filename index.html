@@ -9,28 +9,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
       <div class="container">
         <nav class="navigation">
-          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <a href="./index.html" class="logo logo-black"><span class="logo-accent">Web</span>Studio</a>
           <ul class="site-nav list">
             <li class="nav-item"><a href="./index.html" class="link current">Студия</a></li>
             <li class="nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
             <li class="nav-item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <a href="mailto:info@devstudio.com" class="contacts mail">
+        <a href="mailto:info@devstudio.com" class="contacts mail header-contacts__gray">
           <svg class="envelope-icon">
             <use href="./images/svg-sprite.svg#icon-envelope">
             </use>
           </svg>
           info@devstudio.com
         </a>
-        <a href="tel:+380961111111" class="contacts tel">
+        <a href="tel:+380961111111" class="contacts tel header-contacts__gray">
            <svg class="smartphone-icon">
             <use href="./images/svg-sprite.svg#icon-smartphone">
             </use>
@@ -82,7 +81,7 @@
       </section>
       <section class="section features">
         <div class="container">
-          <h2 class="title">Чем мы занимаемся</h2>
+          <h2 class="section-title title">Чем мы занимаемся</h2>
             <ul class="features-list list">
               <li class="features-list-item">
                 <img width="370px" src="./images/box_1.jpeg" alt="layout" />
@@ -105,7 +104,7 @@
       </section>
       <section class="section team">
         <div class="container">
-          <h2 class="title">Наша команда</h2>
+          <h2 class="section-title title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
               <img width="270px" src="./images/team_1.jpeg" alt="ihor" />
@@ -260,7 +259,7 @@
       </section>
       <section class="section clients">
         <div class="container">
-          <h2 class="title">
+          <h2 class="section-title title">
             Постоянные клиенты
           </h2>
           <ul class="clients-list">
@@ -314,10 +313,10 @@
       <div class="container">
         <ul class="footer-list">
           <li class="footer-list-item">
-            <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+            <a href="./index.html" class="logo logo-white"><span class="logo-accent">Web</span>Studio</a>
             <address>г. Киев, пр-т Леси Украинки, 26</address>
-            <a href="mailto:info@example.com" class="contacts">info@example.com</a>
-            <a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
+            <a href="mailto:info@example.com" class="contacts footer-contacts__grey">info@example.com</a>
+            <a href="tel:+380991111111" class="contacts footer-contacts__grey">+38 099 111 11 11</a>
           </li>
           <li class="social-footer footer-list-item">
             <h3 class="title">присоединяйтесь</h3>
@@ -356,7 +355,7 @@
             <p class="footer-subscribe-text">подпишитесь на рассылку</p>
             <form class="footer-join-form" action="">
               <input class="subscribe-form-email" type="email" placeholder="e-mail">
-              <button class="join-form-button" type="submit">Подписаться 
+              <button class="join-form-button button" type="submit">Подписаться 
                 <svg class="form-mail-button-icon">
                   <use href="./images/svg-sprite.svg#icon-icon-send"></use>
                 </svg>
@@ -412,7 +411,7 @@
                     required>
                 <label for="user-policy" class="modal-form-checkbox-desc">Соглашаюсь с рассылкой и принимаю <a href=""
                         class="modal-form-checkbox-link">Условия договора</a></label>
-                <button type="submit" class="modal-form-btn">отправить</button>
+                <button type="submit" class="modal-form-btn button">отправить</button>
             </form>
       </div>
     </div>
