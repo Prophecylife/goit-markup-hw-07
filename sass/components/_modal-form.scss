@@ -1,9 +1,9 @@
 .modal-form-head {
   color: #212121;
   font-size: 20px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  font-weight: 700;
+  line-height: $line-height-primary;
+  letter-spacing: $letter-spacing-primary;
+  font-weight: $font-weight-bold;
   margin-bottom: 12px;
   text-align: center;
   margin-left: auto;
@@ -79,7 +79,7 @@
 }
 
 .modal-form-checkbox-desc {
-  font-size: 14px;
+  font-size: $font-size-primary;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;

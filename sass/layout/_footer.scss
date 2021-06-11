@@ -21,7 +21,7 @@
 
   & address {
     color: #ffffff;
-    font-size: 14px;
+    font-size: $font-size-primary;
     line-height: 1.71;
     font-style: normal;
     margin-top: 20px;
@@ -36,10 +36,10 @@
 }
 
 .social-footer .title {
-  font-size: 14px;
+  font-size: $font-size-primary;
   color: #ffffff;
-  letter-spacing: 0.03em;
-  line-height: 1.17;
+  letter-spacing: $letter-spacing-primary;
+  line-height: $line-height-primary;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -60,10 +60,10 @@
 
 .footer-subscribe-text {
   color: #ffffff;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  line-height: 1.17;
-  font-size: 14px;
+  font-weight: $font-weight-bold;
+  letter-spacing: $letter-spacing-primary;
+  line-height: $line-height-primary;
+  font-size: $font-size-primary;
   text-transform: uppercase;
 }
 
@@ -79,7 +79,7 @@
   &::placeholder {
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.03em;
+    letter-spacing: $letter-spacing-primary;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.6);
   }
