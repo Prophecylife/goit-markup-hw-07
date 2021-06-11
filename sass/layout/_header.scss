@@ -15,7 +15,7 @@
   }
 }
 
-.link.current {
+.site-nav__link.current {
   color: var(--accent-color);
   position: relative;
 
@@ -36,11 +36,11 @@
   align-items: center;
 }
 
-.nav-item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav .link {
+.site-nav .site-nav__link {
   color: var(--title-text-color);
   font-size: $font-size-primary;
   line-height: $line-height-primary;
