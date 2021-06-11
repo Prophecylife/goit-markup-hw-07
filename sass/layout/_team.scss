@@ -23,14 +23,14 @@
   }
 }
 
-.team-name {
+.team-list__name {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-list-item {
+.team-list__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 4 * 30px) / 4);
@@ -39,11 +39,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  & .social-list-icon {
+  & .social-list__icon {
     fill: #afb1b8;
   }
 
-  & .social-list-link {
+  & .social-list__link {
     background-color: #ffffff;
 
     &:hover,
